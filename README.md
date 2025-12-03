@@ -9,9 +9,7 @@ As a data analyst, you are given a dataset containing 9,000+ Netflix movies, and
 
 This project analyzes the dataset across genres, popularity, votes, and release trends.
 
-📁 Dataset Overview
-
-Your dataset contains the following columns:
+dataset contains the following columns:
 
 Column Name	Description
 Release_Date	Date when the movie was released
@@ -22,8 +20,6 @@ Vote_Count	Number of votes received
 Vote_Average	Average rating given by viewers
 Original_Language	Language in which the movie was originally made
 
-Note: Genre is not present in your dataset, but can be extracted/engineered if you have an additional dataset or API.
-If not, questions related to genre will be adjusted based on available data.
 
 🎯 Objectives / Questions to Solve
 
@@ -52,7 +48,6 @@ NumPy
 
 Matplotlib / Seaborn
 
-(Optional) Plotly
 
 📘 Project Structure
 ├── README.md                     # Documentation
@@ -72,6 +67,7 @@ pip install -r requirements.txt
 Launch the notebook:
 
 jupyter notebook netflix_analysis.ipynb
+
 
 
 Run the cells to generate insights and plots.
